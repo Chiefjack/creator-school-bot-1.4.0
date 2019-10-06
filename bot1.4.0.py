@@ -850,7 +850,9 @@ async def r1b(ctx):
 @bot.command(pass_context=True)
 async def r1c(ctx):
 	ht1c_role = get(ctx.message.server.roles, id="630338623476072449")
+	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	await bot.add_roles(ctx.message.author, ht1c_role)
+	await bot.remove_roles(ctx.message.author, wrong_role
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-2 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
 	send = await bot.send_message(ctx.message.channel, message)
 	await asyncio.sleep(30)
