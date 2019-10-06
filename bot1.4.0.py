@@ -874,6 +874,8 @@ async def r1d(ctx):
 
 @bot.command(pass_context=True)
 async def o1a(ctx):
+	ht1c_role = get(ctx.message.server.roles, id="630338623476072449")
+	await bot.remove_roles(ctx.message.author, ht1c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -885,6 +887,8 @@ async def o1a(ctx):
 	
 @bot.command(pass_context=True)
 async def o1b(ctx):
+	ht1c_role = get(ctx.message.server.roles, id="630338623476072449")
+	await bot.remove_roles(ctx.message.author, ht1c_role)
 	ht2c_role = get(ctx.message.server.roles, id="630342614201401344")
 	await bot.add_roles(ctx.message.author, ht2c_role)
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-3 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
@@ -895,6 +899,8 @@ async def o1b(ctx):
 	
 @bot.command(pass_context=True)
 async def o1c(ctx):
+	ht1c_role = get(ctx.message.server.roles, id="630338623476072449")
+	await bot.remove_roles(ctx.message.author, ht1c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -906,6 +912,8 @@ async def o1c(ctx):
 	
 @bot.command(pass_context=True)
 async def o1d(ctx):
+	ht1c_role = get(ctx.message.server.roles, id="630338623476072449")
+	await bot.remove_roles(ctx.message.author, ht1c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -919,6 +927,8 @@ async def o1d(ctx):
 
 @bot.command(pass_context=True)
 async def q1a(ctx):
+	ht2c_role = get(ctx.message.server.roles, id="630342614201401344")
+	await bot.remove_roles(ctx.message.author, ht2c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -930,6 +940,8 @@ async def q1a(ctx):
 	
 @bot.command(pass_context=True)
 async def q1b(ctx):
+	ht2c_role = get(ctx.message.server.roles, id="630342614201401344")
+	await bot.remove_roles(ctx.message.author, ht2c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -941,6 +953,8 @@ async def q1b(ctx):
 	
 @bot.command(pass_context=True)
 async def q1c(ctx):
+	ht2c_role = get(ctx.message.server.roles, id="630342614201401344")
+	await bot.remove_roles(ctx.message.author, ht2c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -952,6 +966,8 @@ async def q1c(ctx):
 	
 @bot.command(pass_context=True)
 async def q1d(ctx):
+	ht2c_role = get(ctx.message.server.roles, id="630342614201401344")
+	await bot.remove_roles(ctx.message.author, ht2c_role)
 	ht3c_role = get(ctx.message.server.roles, id="630342640038314014")
 	await bot.add_roles(ctx.message.author, ht3c_role)
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-4 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
@@ -964,6 +980,8 @@ async def q1d(ctx):
 
 @bot.command(pass_context=True)
 async def q2a(ctx):
+	ht3c_role = get(ctx.message.server.roles, id="630342640038314014")
+	await bot.remove_roles(ctx.message.author, ht3c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -975,6 +993,8 @@ async def q2a(ctx):
 	
 @bot.command(pass_context=True)
 async def q2b(ctx):
+	ht3c_role = get(ctx.message.server.roles, id="630342640038314014")
+	await bot.remove_roles(ctx.message.author, ht3c_role)
 	ht4c_role = get(ctx.message.server.roles, id="630342656475791361")
 	await bot.add_roles(ctx.message.author, ht4c_role)
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-5 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
@@ -985,6 +1005,8 @@ async def q2b(ctx):
 	
 @bot.command(pass_context=True)
 async def q2c(ctx):
+	ht3c_role = get(ctx.message.server.roles, id="630342640038314014")
+	await bot.remove_roles(ctx.message.author, ht3c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -996,6 +1018,8 @@ async def q2c(ctx):
 	
 @bot.command(pass_context=True)
 async def q2d(ctx):
+	ht3c_role = get(ctx.message.server.roles, id="630342640038314014")
+	await bot.remove_roles(ctx.message.author, ht3c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1009,6 +1033,8 @@ async def q2d(ctx):
 
 @bot.command(pass_context=True)
 async def r2a(ctx):
+	ht4c_role = get(ctx.message.server.roles, id="630342656475791361")
+	await bot.remove_roles(ctx.message.author, ht4c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1020,6 +1046,8 @@ async def r2a(ctx):
 	
 @bot.command(pass_context=True)
 async def r2b(ctx):
+	ht4c_role = get(ctx.message.server.roles, id="630342656475791361")
+	await bot.remove_roles(ctx.message.author, ht4c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1031,6 +1059,8 @@ async def r2b(ctx):
 	
 @bot.command(pass_context=True)
 async def r2c(ctx):
+	ht4c_role = get(ctx.message.server.roles, id="630342656475791361")
+	await bot.remove_roles(ctx.message.author, ht4c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1042,6 +1072,8 @@ async def r2c(ctx):
 	
 @bot.command(pass_context=True)
 async def r2d(ctx):
+	ht4c_role = get(ctx.message.server.roles, id="630342656475791361")
+	await bot.remove_roles(ctx.message.author, ht4c_role)
 	ht5c_role = get(ctx.message.server.roles, id="630342676062928912")
 	await bot.add_roles(ctx.message.author, ht5c_role)
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-6 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
@@ -1054,6 +1086,8 @@ async def r2d(ctx):
 
 @bot.command(pass_context=True)
 async def q3a(ctx):
+	ht5c_role = get(ctx.message.server.roles, id="630342676062928912")
+	await bot.remove_roles(ctx.message.author, ht5c_role)
 	ht6c_role = get(ctx.message.server.roles, id="630342692601200641")
 	await bot.add_roles(ctx.message.author, ht6c_role)
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-7 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
@@ -1064,6 +1098,8 @@ async def q3a(ctx):
 	
 @bot.command(pass_context=True)
 async def q3b(ctx):
+	ht5c_role = get(ctx.message.server.roles, id="630342676062928912")
+	await bot.remove_roles(ctx.message.author, ht5c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1075,6 +1111,8 @@ async def q3b(ctx):
 	
 @bot.command(pass_context=True)
 async def q3c(ctx):
+	ht5c_role = get(ctx.message.server.roles, id="630342676062928912")
+	await bot.remove_roles(ctx.message.author, ht5c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1086,6 +1124,8 @@ async def q3c(ctx):
 	
 @bot.command(pass_context=True)
 async def q3d(ctx):
+	ht5c_role = get(ctx.message.server.roles, id="630342676062928912")
+	await bot.remove_roles(ctx.message.author, ht5c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1099,6 +1139,8 @@ async def q3d(ctx):
 
 @bot.command(pass_context=True)
 async def o2a(ctx):
+	ht6c_role = get(ctx.message.server.roles, id="630342692601200641")
+	await bot.remove_roles(ctx.message.author, ht6c_role)
 	ht7c_role = get(ctx.message.server.roles, id="630342708795408394")
 	await bot.add_roles(ctx.message.author, ht7c_role)
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-8 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
@@ -1109,6 +1151,8 @@ async def o2a(ctx):
 	
 @bot.command(pass_context=True)
 async def o2b(ctx):
+	ht6c_role = get(ctx.message.server.roles, id="630342692601200641")
+	await bot.remove_roles(ctx.message.author, ht6c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1120,6 +1164,8 @@ async def o2b(ctx):
 	
 @bot.command(pass_context=True)
 async def o2c(ctx):
+	ht6c_role = get(ctx.message.server.roles, id="630342692601200641")
+	await bot.remove_roles(ctx.message.author, ht6c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1131,6 +1177,8 @@ async def o2c(ctx):
 	
 @bot.command(pass_context=True)
 async def o2d(ctx):
+	ht6c_role = get(ctx.message.server.roles, id="630342692601200641")
+	await bot.remove_roles(ctx.message.author, ht6c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1144,6 +1192,8 @@ async def o2d(ctx):
 
 @bot.command(pass_context=True)
 async def q4a(ctx):
+	ht7c_role = get(ctx.message.server.roles, id="630342708795408394")
+	await bot.remove_roles(ctx.message.author, ht7c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1155,6 +1205,8 @@ async def q4a(ctx):
 	
 @bot.command(pass_context=True)
 async def q4b(ctx):
+	ht7c_role = get(ctx.message.server.roles, id="630342708795408394")
+	await bot.remove_roles(ctx.message.author, ht7c_role)
 	ht8c_role = get(ctx.message.server.roles, id="630342725409046538")
 	await bot.add_roles(ctx.message.author, ht8c_role)
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-9 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
@@ -1165,6 +1217,8 @@ async def q4b(ctx):
 	
 @bot.command(pass_context=True)
 async def q4c(ctx):
+	ht7c_role = get(ctx.message.server.roles, id="630342708795408394")
+	await bot.remove_roles(ctx.message.author, ht7c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1176,6 +1230,8 @@ async def q4c(ctx):
 	
 @bot.command(pass_context=True)
 async def q4d(ctx):
+	ht7c_role = get(ctx.message.server.roles, id="630342708795408394")
+	await bot.remove_roles(ctx.message.author, ht7c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1189,6 +1245,8 @@ async def q4d(ctx):
 
 @bot.command(pass_context=True)
 async def r3a(ctx):
+	ht8c_role = get(ctx.message.server.roles, id="630342725409046538")
+	await bot.remove_roles(ctx.message.author, ht8c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1200,6 +1258,8 @@ async def r3a(ctx):
 	
 @bot.command(pass_context=True)
 async def r3b(ctx):
+	ht8c_role = get(ctx.message.server.roles, id="630342725409046538")
+	await bot.remove_roles(ctx.message.author, ht8c_role)
 	ht9c_role = get(ctx.message.server.roles, id="630342741783740446")
 	await bot.add_roles(ctx.message.author, ht9c_role)
 	message = (f"Well done, that's correct! Now have a look for halloween-trail-10 and see if you can advance onto the next question! (A witch will brew this message out of extinction in approx. 30 seconds)")
@@ -1210,6 +1270,8 @@ async def r3b(ctx):
 	
 @bot.command(pass_context=True)
 async def r3c(ctx):
+	ht8c_role = get(ctx.message.server.roles, id="630342725409046538")
+	await bot.remove_roles(ctx.message.author, ht8c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1221,6 +1283,8 @@ async def r3c(ctx):
 	
 @bot.command(pass_context=True)
 async def r3d(ctx):
+	ht8c_role = get(ctx.message.server.roles, id="630342725409046538")
+	await bot.remove_roles(ctx.message.author, ht8c_role)
 	wrong_role = get(ctx.message.server.roles, id="630338717676077056")
 	wrong_channel = bot.get_channel("630341732197859329")
 	await bot.add_roles(ctx.message.author, wrong_role)
@@ -1234,6 +1298,8 @@ async def r3d(ctx):
 
 @bot.command(pass_context=True)
 async def fa(ctx):
+	ht9c_role = get(ctx.message.server.roles, id="630342741783740446")
+	await bot.remove_roles(ctx.message.author, ht9c_role)
 	survivor_channel = bot.get_channel("630401651580338199")
 	end_role = get(ctx.message.server.roles, id="630355475682164786")
 	await bot.add_roles(ctx.message.author, end_role)
@@ -1247,6 +1313,8 @@ async def fa(ctx):
 	
 @bot.command(pass_context=True)
 async def fb(ctx):
+	ht9c_role = get(ctx.message.server.roles, id="630342741783740446")
+	await bot.remove_roles(ctx.message.author, ht9c_role)
 	survivor_channel = bot.get_channel("630401651580338199")
 	end_role = get(ctx.message.server.roles, id="630355475682164786")
 	await bot.add_roles(ctx.message.author, end_role)
@@ -1260,6 +1328,8 @@ async def fb(ctx):
 	
 @bot.command(pass_context=True)
 async def fc(ctx):
+	ht9c_role = get(ctx.message.server.roles, id="630342741783740446")
+	await bot.remove_roles(ctx.message.author, ht9c_role)
 	survivor_channel = bot.get_channel("630401651580338199")
 	end_role = get(ctx.message.server.roles, id="630355475682164786")
 	await bot.add_roles(ctx.message.author, end_role)
@@ -1273,6 +1343,8 @@ async def fc(ctx):
 	
 @bot.command(pass_context=True)
 async def fd(ctx):
+	ht9c_role = get(ctx.message.server.roles, id="630342741783740446")
+	await bot.remove_roles(ctx.message.author, ht9c_role)
 	survivor_channel = bot.get_channel("630401651580338199")
 	end_role = get(ctx.message.server.roles, id="630355475682164786")
 	await bot.add_roles(ctx.message.author, end_role)
@@ -1286,6 +1358,8 @@ async def fd(ctx):
 	
 @bot.command(pass_context=True)
 async def fe(ctx):
+	ht9c_role = get(ctx.message.server.roles, id="630342741783740446")
+	await bot.remove_roles(ctx.message.author, ht9c_role)
 	survivor_channel = bot.get_channel("630401651580338199")
 	end_role = get(ctx.message.server.roles, id="630355475682164786")
 	await bot.add_roles(ctx.message.author, end_role)
@@ -1299,6 +1373,8 @@ async def fe(ctx):
 	
 @bot.command(pass_context=True)
 async def ff(ctx):
+	ht9c_role = get(ctx.message.server.roles, id="630342741783740446")
+	await bot.remove_roles(ctx.message.author, ht9c_role)
 	survivor_channel = bot.get_channel("630401651580338199")
 	end_role = get(ctx.message.server.roles, id="630355475682164786")
 	await bot.add_roles(ctx.message.author, end_role)
